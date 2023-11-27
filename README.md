@@ -30,6 +30,7 @@ Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Ma
 + Xin Zhang, Jiaxian Guo, Paul Yoo, Yutaka Matsuo, Yusuke Iwasawa: "*Paste, Inpaint and Harmonize via Denoising: Subject-Driven Image Editing with Pre-Trained Diffusion Model.*" arXiv preprint arXiv:2306.07596 (2023) [[arXiv]](https://arxiv.org/pdf/2306.07596.pdf) [[code]](https://sites.google.com/view/phd-demo-page)
 + Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao, Hengshuang Zhao: "*AnyDoor: Zero-shot Object-level Image Customization.*" arXiv preprint arXiv:2307.09481 (2023) [[arXiv]](https://arxiv.org/pdf/2307.09481.pdf) [[code]](https://github.com/damo-vilab/AnyDoor)
 + Bo Zhang, Yuxuan Duan, Jun Lan, Yan Hong, Huijia Zhu, Weiqiang Wang, Li Niu: "*ControlCom: Controllable Image Composition using Diffusion Model.*" arXiv preprint arXiv:2308.10040 (2023) [[arXiv]](https://arxiv.org/pdf/2308.10040.pdf) [[code]](https://github.com/bcmi/ControlCom-Image-Composition)
++ Ziyang Yuan, Mingdeng Cao, Xintao Wang, Zhongang Qi, Chun Yuan, Ying Shan: "*CustomNet: Zero-shot Object Customization with Variable-Viewpoints in Text-to-Image Diffusion Models.*" arXiv preprint arXiv:2310.19784 (2023) [[arXiv]](https://arxiv.org/pdf/2310.19784.pdf)
 
 ### Token-to-Object
 
