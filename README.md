@@ -47,6 +47,11 @@ Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Ma
 + Jinghao Zhou, Tomas Jakab, Philip Torr, Christian Rupprecht: "*Scene-Conditional 3D Object Stylization and Composition.*" arXiv preprint arXiv:2312.12419 (2023) [[arXiv]](https://arxiv.org/pdf/2312.12419.pdf) [[code]](https://github.com/shallowtoil/scene-cond-3d)
 
 ## Foreground: 3D;  Background: 3D
++ Jiaxiang Tang, Xiaokang Chen, Jingbo Wang, Gang Zeng: "*Compressible-composable nerf via rank-residual decomposition.*" NIPS (2022) [[arXiv]](https://arxiv.org/abs/2205.14870) [[code]](https://github.com/ashawkey/CCNeRF)
++ Verica Lazova, Vladimir Guzov, Kyle Olszewski, Sergey Tulyakov, Gerard Pons-Moll: "*Control-NeRF: Editable Feature Volumes for Scene Rendering and Manipulation*" WACV (2023) [[arXiv]](https://arxiv.org/abs/2204.10850)
++ Rahul Goel, Dhawal Sirikonda, Rajvi Shah, PJ Narayanan: "*FusedRF: Fusing Multiple Radiance Fields*" CVPR Workshop (2023) [[arXiv]](https://arxiv.org/abs/2306.04180)
++ Rahul Goel, Dhawal Sirikonda, Saurabh Saini, PJ Narayanan: "*Interactive Segmentation of Radiance Fields*" CVPR (2023) [[arXiv]](https://arxiv.org/abs/2212.13545) [[code]](https://github.com/rahul-goel/isrf_code)
++ Bangbang Yang, Yinda Zhang, Yinghao Xu, Yijin Li, Han Zhou, Hujun Bao, Guofeng Zhang, Zhaopeng Cui: "*Learning Object-Compositional Neural Radiance Field for Editable Scene Rendering*" ICCV (2021) [[arXiv]](https://arxiv.org/abs/2109.01847) [[code]](https://github.com/zju3dv/object_nerf)
 
 ## Foreground: video;  Background: image
 
