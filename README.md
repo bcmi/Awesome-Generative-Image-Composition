@@ -9,7 +9,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Table of Contents
 + [Survey](#Survey)
-+ [Evaluation](#Evaluation)
++ [Evaluation Metrics](#Evaluation-metrics)
 + [Test Set](#Test-set)
 + [Leaderboard](#Leaderboard)
 + [Papers](#Papers)
@@ -22,7 +22,7 @@ A brief review on generative image composition is included in the following surv
 
 Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Making Images Real Again: A Comprehensive Survey on Deep Image Composition.*" arXiv preprint arXiv:2106.14490 (2021). [[arXiv]](https://arxiv.org/pdf/2106.14490.pdf)
 
-## Evaluation
+## Evaluation Metrics
 
 + [Composite-Image-Evaluation](https://github.com/bcmi/Composite-Image-Evaluation)
 
@@ -37,6 +37,7 @@ user mask, and a text prompt.
 
 ## Leaderboard
 
+The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. 
 <table class="tg">
   <tr>
     <th class="tg-0pky" rowspan="2" align="center">Method</th>
