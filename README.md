@@ -11,6 +11,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Survey](#Survey)
 + [Evaluation](#Evaluation)
 + [Test Set](#Test-set)
++ [Leaderboard](#Leaderboard)
 + [Papers](#Papers)
 + [Related Topics](#Related-topics)
 + [Other Resources](#Other-resources)
@@ -33,6 +34,74 @@ user mask, and a text prompt.
 + [FOSCom](https://github.com/bcmi/ControlCom-Image-Composition) (within-domain, single-ref): 640 background images from Internet. Each background image has a manually annotated bounding box and a foreground image from MSCOCO training set.
 + [DreamEditBench](https://huggingface.co/datasets/tianleliphoebe/DreamEditBench) (within-domain, multi-ref): 220 background images and 30 unique foreground objects from 15 categories. 
 + [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): 640 background images and 96 unique foreground objects from 32 categories.
+
+## Leaderboard
+
+<table class="tg">
+  <tr>
+    <th class="tg-0pky" rowspan="2" align="center">Method</th>
+    <th class="tg-0pky" colspan="3" align="center">Foreground</th>
+    <th class="tg-0pky" colspan="2" align="center">Background</th>
+    <th class="tg-0pky" colspan="2" align="center">Overall</th>
+  </tr>
+  <tr>
+    <th class="tg-0pky" align="center">CLIP&uarr;</th>
+    <th class="tg-0pky" align="center">DINO&uarr;</th>
+    <th class="tg-0pky" align="center">FID&darr;</th>
+    <th class="tg-0pky" align="center">LSSIM&uarr;</th>    
+    <th class="tg-0pky" align="center">LPIPS&darr;</th>
+    <th class="tg-0pky" align="center">FID&darr;</th>
+    <th class="tg-0pky" align="center">QS&uarr;</th>
+  </tr>
+<tr>
+  <th class="tg-0pky" align="center">Inpaint&Paste</th>
+    <th class="tg-0pky" align="center">-</th>
+  <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">8.0</th>
+    <th class="tg-0pky" align="center">-</th>    
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">3.64</th>
+    <th class="tg-0pky" align="center">72.07</th>
+  </tr>
+  <tr>
+  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2108.01073.pdf">SDEdit</a> </th>
+    <th class="tg-0pky" align="center">85.02</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">9.77</th>
+    <th class="tg-0pky" align="center">0.630</th>    
+    <th class="tg-0pky" align="center">0.344</th>
+    <th class="tg-0pky" align="center">6.42</th>
+    <th class="tg-0pky" align="center">75.20</th>
+  </tr>   
+  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2211.13227.pdf">PBE</a> </th>
+    <th class="tg-0pky" align="center">84.84</th>
+  <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">6.24</th>
+    <th class="tg-0pky" align="center">0.823</th>    
+    <th class="tg-0pky" align="center">0.116</th>
+    <th class="tg-0pky" align="center">3.18</th>
+    <th class="tg-0pky" align="center">77.80</th>
+  </tr>   
+  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2212.00932.pdf">ObjectStitch</a></th>
+    <th class="tg-0pky" align="center">85.97</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">6.86</th>
+    <th class="tg-0pky" align="center">0.825</th>    
+    <th class="tg-0pky" align="center">0.116</th>
+    <th class="tg-0pky" align="center">3.35</th>
+    <th class="tg-0pky" align="center">76.86</th>
+  </tr>  
+  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2308.10040.pdf">ControlCom</a></th>
+    <th class="tg-0pky" align="center">88.31</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">6.28</th>
+    <th class="tg-0pky" align="center">0.826</th>    
+    <th class="tg-0pky" align="center">0.114</th>
+    <th class="tg-0pky" align="center">3.19</th>
+    <th class="tg-0pky" align="center">77.84</th>
+  </tr>
+</table>
+
 
 
 ## Papers
