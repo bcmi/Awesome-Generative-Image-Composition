@@ -92,6 +92,16 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
     <th class="tg-0pky" align="center">3.35</th>
     <th class="tg-0pky" align="center">76.86</th>
   </tr>  
+  
+  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2307.09481.pdf">AnyDoor</a></th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">-</th>    
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">-</th>
+  </tr>
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2308.10040.pdf">ControlCom</a></th>
     <th class="tg-0pky" align="center">88.31</th>
     <th class="tg-0pky" align="center">-</th>
