@@ -4,6 +4,5 @@ checkpoints/coco2017_gmm_k20
 data/
 cache/COCOEE_GTFG/
 cache/*.zip
-cache/*.pth
 __pycache__
 */__pycache__
