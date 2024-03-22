@@ -1,8 +1,9 @@
-checkpoints/*
-!checkpoints/
-data/*
-!data/
-cache/*
-!cache/
+checkpoints/*.pth
+checkpoints/*/
+checkpoints/coco2017_gmm_k20
+data/
+cache/*/
+cache/*.zip
+cache/*.pth
 __pycache__
 */__pycache__
