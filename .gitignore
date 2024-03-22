@@ -1,5 +1,6 @@
 checkpoints/*.pth
-checkpoints/*/
+checkpoints/clip-vit-base-patch32/
+checkpoints/dino-vits16/
 checkpoints/coco2017_gmm_k20
 data/
 cache/COCOEE_GTFG/

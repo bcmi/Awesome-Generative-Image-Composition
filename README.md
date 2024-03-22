@@ -136,7 +136,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
    └── sam_vit_h_4b8939.pth
    ```
 
-3. **Download Cache File for FID Scores**:
+<!-- 3. **Download Cache File for FID Scores**:
    - Download the cache file from [Google Drive](https://drive.google.com/file/d/1m5EXLb2fX95uyl2dYtQUudjnFsGhN5dU/view?usp=sharing) used for computing FID scores.
    - Unzip the cache file to a `cache` folder as follows:
      ```shell
@@ -144,9 +144,9 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
      ├── coco2017_test.pth
      └── cocoee_gtfg.pth
      ```
-   Alternatively, you can download the test set of [COCO2017](http://images.cocodataset.org/zips/test2017.zip) in advance and unzip it to a `data` folder.
+   Alternatively, you can download the test set of [COCO2017](http://images.cocodataset.org/zips/test2017.zip) in advance and unzip it to a `data` folder. -->
 
-4. **Prepare COCOEE Benchmark and Your Results**:
+3. **Prepare COCOEE Benchmark and Your Results**:
    - Prepare the [COCOEE benchmark](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) alongside your generated composite results. Ensure that your composite images have filenames corresponding to the background images of the COCOEE dataset, as illustrated below:
       ```shell
       results/
