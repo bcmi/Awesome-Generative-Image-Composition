@@ -1,5 +1,8 @@
-checkpoints/
-data/
-cache/
+checkpoints/*
+!checkpoints/
+data/*
+!data/
+cache/*
+!cache/
 __pycache__
 */__pycache__
