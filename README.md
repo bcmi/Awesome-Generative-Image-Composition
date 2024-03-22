@@ -67,7 +67,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
   <tr>
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2108.01073.pdf">SDEdit</a> </th>
     <th class="tg-0pky" align="center">85.02</th>
-    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">55.38</th>
     <th class="tg-0pky" align="center">9.77</th>
     <th class="tg-0pky" align="center">0.630</th>    
     <th class="tg-0pky" align="center">0.344</th>
@@ -76,7 +76,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
   </tr>   
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2211.13227.pdf">PBE</a> </th>
     <th class="tg-0pky" align="center">84.84</th>
-  <th class="tg-0pky" align="center">-</th>
+  <th class="tg-0pky" align="center">52.52</th>
     <th class="tg-0pky" align="center">6.24</th>
     <th class="tg-0pky" align="center">0.823</th>    
     <th class="tg-0pky" align="center">0.116</th>
@@ -85,7 +85,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
   </tr>   
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2212.00932.pdf">ObjectStitch</a></th>
     <th class="tg-0pky" align="center">85.97</th>
-    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">61.12</th>
     <th class="tg-0pky" align="center">6.86</th>
     <th class="tg-0pky" align="center">0.825</th>    
     <th class="tg-0pky" align="center">0.116</th>
@@ -94,17 +94,17 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
   </tr>  
   
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2307.09481.pdf">AnyDoor</a></th>
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">-</th>    
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">89.7</th>
+    <th class="tg-0pky" align="center">70.16</th>
+    <th class="tg-0pky" align="center">10.5</th>
+    <th class="tg-0pky" align="center">0.870</th>    
+    <th class="tg-0pky" align="center">0.109</th>
+    <th class="tg-0pky" align="center">3.60</th>
+    <th class="tg-0pky" align="center">76.18</th>
   </tr>
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2308.10040.pdf">ControlCom</a></th>
     <th class="tg-0pky" align="center">88.31</th>
-    <th class="tg-0pky" align="center">-</th>
+    <th class="tg-0pky" align="center">63.67</th>
     <th class="tg-0pky" align="center">6.28</th>
     <th class="tg-0pky" align="center">0.826</th>    
     <th class="tg-0pky" align="center">0.114</th>
@@ -113,6 +113,55 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
   </tr>
 </table>
 
+### Evaluating Your Results
+
+1. **Install Dependencies**:
+   - Begin by installing the dependencies listed in [requirements.txt](./requirements.txt).
+   - Additionally, install [Segment Anything](https://github.com/facebookresearch/segment-anything).
+
+2. **Clone Repository and Download Pretrained Models**:
+   - Clone this repository and ensure you have a `checkpoints` folder.
+   - Download the following pretrained models into the `checkpoints` folder:
+     - [openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32): Used for CLIP score and FID score calculations.
+     - [ViT-H SAM model](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints): Utilized to estimate foreground masks for reference images and generated composites.
+     - [facebook/dino-vits16](https://huggingface.co/facebook/dino-vits16): Employed in DINO score computation.
+     - [coco2017_gmm_k20](https://github.com/Fantasy-Studio/Paint-by-Example#qs-score): Utilized to compute the overall quality score.
+
+   The resulting folder structure should resemble the following:
+   ```shell
+   checkpoints/
+   ├── clip-vit-base-patch32
+   ├── coco2017_gmm_k20
+   ├── dino-vits16
+   └── sam_vit_h_4b8939.pth
+   ```
+
+3. **Download Cache File for FID Scores**:
+   - Download the cache file from [Google Drive](https://drive.google.com/file/d/1m5EXLb2fX95uyl2dYtQUudjnFsGhN5dU/view?usp=sharing) used for computing FID scores.
+   - Unzip the cache file to a `cache` folder as follows:
+     ```shell
+     cache/
+     ├── coco2017_test.pth
+     └── cocoee_gtfg.pth
+     ```
+   Alternatively, you can download the test set of [COCO2017](http://images.cocodataset.org/zips/test2017.zip) in advance and unzip it to a `data` folder.
+
+4. **Prepare COCOEE Benchmark and Your Results**:
+   - Prepare the [COCOEE benchmark](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) alongside your generated composite results. Ensure that your composite images have filenames corresponding to the background images of the COCOEE dataset, as illustrated below:
+      ```shell
+      results/
+      ......
+      ├── 000002228519_GT.png
+      ├── 000002231413_GT.png
+      ├── 900100065455_GT.png
+      └── 900100376112_GT.png
+      ```
+   - Modify the paths accordingly in the `run.sh` file. If you have downloaded the cache file mentioned earlier, please ignore `cocodir`.
+   - Execute the following command:
+     ```shell
+     sh run.sh
+     ```
+   Then, wait for the results of all metrics to be computed.
 
 
 ## Papers
