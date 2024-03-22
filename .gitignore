@@ -2,7 +2,7 @@ checkpoints/*.pth
 checkpoints/*/
 checkpoints/coco2017_gmm_k20
 data/
-cache/*/
+cache/COCOEE_GTFG/
 cache/*.zip
 cache/*.pth
 __pycache__
