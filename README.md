@@ -31,7 +31,7 @@ Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Ma
 + [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) (within-domain, single-ref): 500 background images from MSCOCO validation set.  Each background image has a bounding box and a foreground image from MSCOCO training set.
 + [TF-ICON test benchmark](https://github.com/Shilin-LU/TF-ICON?tab=readme-ov-file#tf-icon-test-benchmark) (cross-domain, single-ref): 332 samples. Each sample consists of a background image, a foreground image, a
 user mask, and a text prompt.
-+ [FOSCom](https://github.com/bcmi/ControlCom-Image-Composition) (within-domain, single-ref): 640 background images from Internet. Each background image has a manually annotated bounding box and a foreground image from MSCOCO training set.
++ [FOSCom](https://github.com/bcmi/ControlCom-Image-Composition?tab=readme-ov-file#FOSCom-Dataset) (within-domain, single-ref): 640 background images from Internet. Each background image has a manually annotated bounding box and a foreground image from MSCOCO training set.
 + [DreamEditBench](https://huggingface.co/datasets/tianleliphoebe/DreamEditBench) (within-domain, multi-ref): 220 background images and 30 unique foreground objects from 15 categories. 
 + [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): 640 background images and 96 unique foreground objects from 32 categories.
 
