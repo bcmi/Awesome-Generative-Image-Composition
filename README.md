@@ -1,7 +1,7 @@
 
 # Awesome Generative Image Composition [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition, which aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object. 
+A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion), which aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object. 
 
 ## Contributing
 
