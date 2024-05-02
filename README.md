@@ -1,7 +1,11 @@
 
 # Awesome Generative Image Composition [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion), which aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object. 
+A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion). **Generative image composition aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object.** For more complete resources on general image composition, please refer to [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition).
+
+<p align='center'>  
+  <img src='./figures/task.jpg'  width=90% />
+</p>
 
 ## Contributing
 
@@ -9,6 +13,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Table of Contents
 + [Survey](#Survey)
++ [Online Demo](#Online-demo)
 + [Evaluation Metrics](#Evaluation-metrics)
 + [Test Set](#Test-set)
 + [Leaderboard](#Leaderboard)
@@ -20,7 +25,13 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 A brief review on generative image composition is included in the following survey on image composition:
 
-Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Making Images Real Again: A Comprehensive Survey on Deep Image Composition.*" arXiv preprint arXiv:2106.14490 (2021). [[arXiv]](https://arxiv.org/pdf/2106.14490.pdf)
+Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Making Images Real Again: A Comprehensive Survey on Deep Image Composition.*" arXiv preprint arXiv:2106.14490 (2021). [[arXiv]](https://arxiv.org/pdf/2106.14490.pdf)  [[slides]](https://www.ustcnewly.com/download/Image_composition_tutorial.pdf)
+
+
+## Online Demo
+
+Try this [online demo](https://bcmi.sjtu.edu.cn/home/niuli/demo_image_composition/) for generative image composition and have fun! ![hot](https://bcmi.sjtu.edu.cn/~niuli/images/fire.png)
+
 
 ## Evaluation Metrics
 
