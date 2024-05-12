@@ -48,7 +48,8 @@ user mask, and a text prompt.
 
 ## Leaderboard
 
-The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. 
+The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, the following metrics are not very reliable. For more comprehensive evaluation metrics, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation).
+
 <table class="tg">
   <tr>
     <th class="tg-0pky" rowspan="2" align="center">Method</th>
