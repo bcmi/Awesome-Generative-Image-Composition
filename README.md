@@ -48,7 +48,7 @@ user mask, and a text prompt.
 
 ## Leaderboard
 
-The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, the following metrics are not very reliable. For more comprehensive evaluation metrics, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation).
+The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, the following evaluation metrics are not very reliable. For more comprehensive and interpretable evaluation, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation) of evaluation metrics.
 
 <table class="tg">
   <tr>
@@ -76,16 +76,6 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
     <th class="tg-0pky" align="center">3.64</th>
     <th class="tg-0pky" align="center">72.07</th>
   </tr>
-  <tr>
-  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2108.01073.pdf">SDEdit</a> </th>
-    <th class="tg-0pky" align="center">85.02</th>
-    <th class="tg-0pky" align="center">55.38</th>
-    <th class="tg-0pky" align="center">9.77</th>
-    <th class="tg-0pky" align="center">0.630</th>    
-    <th class="tg-0pky" align="center">0.344</th>
-    <th class="tg-0pky" align="center">6.42</th>
-    <th class="tg-0pky" align="center">75.20</th>
-  </tr>   
   <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2211.13227.pdf">PBE</a> </th>
     <th class="tg-0pky" align="center">84.84</th>
   <th class="tg-0pky" align="center">52.52</th>
