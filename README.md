@@ -169,6 +169,9 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 ## Papers
 
 #### Object-to-Object
++ Zitian Zhang, Frederic Fortier-Chouinard, Mathieu Garon, Anand Bhattad, Jean-Francois Lalonde: "*ZeroComp: Zero-shot Object Compositing from Image Intrinsics via Diffusion.*" arXiv preprint arXiv:2410.08168 (2024). [[arXiv]](https://arxiv.org/pdf/2410.08168)
++ Thinking Outside the BBox: Unconstrained Generative Object Compositing："*Thinking Outside the BBox: Unconstrained Generative Object Compositing.*" arXiv preprint arXiv:2409.04559 (2024). [[arXiv]](https://arxiv.org/pdf/2409.04559)
++ Weijing Tao, Xiaofeng Yang, Biwen Lei, Miaomiao Cui, Xuansong Xie, Guosheng Lin: "*MotionCom: Automatic and Motion-Aware Image Composition with LLM and Video Diffusion Prior.*" arXiv preprint arXiv:2409.10090 (2024). [[[arXiv]]([[arXiv]](https://arxiv.org/pdf/2403.10701v1.pdf)) [[code]](https://github.com/weijing-tao/MotionCom)
 + Yizhi Song, Zhifei Zhang, Zhe Lin, Scott Cohen, Brian Price, Jianming Zhang, Soo Ye Kim, He Zhang, Wei Xiong, Daniel Aliaga: "*IMPRINT: Generative Object Compositing by Learning Identity-Preserving Representation.*" CVPR (2024) [[arXiv]](https://arxiv.org/pdf/2403.10701v1.pdf)
 + Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao, Hengshuang Zhao: "*AnyDoor: Zero-shot Object-level Image Customization.*" CVPR (2024) [[arXiv]](https://arxiv.org/pdf/2307.09481.pdf) [[code]](https://github.com/damo-vilab/AnyDoor) [[demo]](https://huggingface.co/spaces/xichenhku/AnyDoor-online)
 + Vishnu Sarukkai, Linden Li, Arden Ma, Christopher Re, Kayvon Fatahalian: "*Collage Diffusion.*" WACV (2024) [[pdf]](https://openaccess.thecvf.com/content/WACV2024/papers/Sarukkai_Collage_Diffusion_WACV_2024_paper.pdf) [[code]](https://github.com/VSAnimator/collage-diffusion) 
