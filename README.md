@@ -37,8 +37,10 @@ Try this [online demo](https://bcmi.sjtu.edu.cn/home/niuli/demo_image_compositio
 
 + [Composite-Image-Evaluation](https://github.com/bcmi/Composite-Image-Evaluation)
 
-## Test Set
 
+## Datasets
+
++ [SAM-FB](https://github.com/KaKituken/affordance-aware-any) (within-domain, single-ref): built upon SA-1B (SAM dataset). 3,160,403 images with 3,439 foreground categories. 
 + [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) (within-domain, single-ref): 500 background images from MSCOCO validation set.  Each background image has a bounding box and a foreground image from MSCOCO training set.
 + [TF-ICON test benchmark](https://github.com/Shilin-LU/TF-ICON?tab=readme-ov-file#tf-icon-test-benchmark) (cross-domain, single-ref): 332 samples. Each sample consists of a background image, a foreground image, a
 user mask, and a text prompt.
@@ -183,6 +185,8 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
 #### Training-based
++ Jixuan He, Wanhua Li, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister: "*Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion.*" arXiv preprint arXiv:2412.14462 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.14462) [[code]](https://github.com/KaKituken/affordance-aware-any)
++ Daniel Winter, Asaf Shul, Matan Cohen, Dana Berman, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation.*" arXiv preprint arXiv:2412.08645 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.08645)
 + Zitian Zhang, Frederic Fortier-Chouinard, Mathieu Garon, Anand Bhattad, Jean-Francois Lalonde: "*ZeroComp: Zero-shot Object Compositing from Image Intrinsics via Diffusion.*" arXiv preprint arXiv:2410.08168 (2024) [[arXiv]](https://arxiv.org/pdf/2410.08168)
 + Zhekai Chen, Wen Wang, Zhen Yang, Zeqing Yuan, Hao Chen, Chunhua Shen: "*FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior.*" ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02529.pdf) [[code]](https://github.com/aim-uofa/FreeCompose)
 + Daniel Winter, Matan Cohen, Shlomi Fruchter, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectDrop: Bootstrapping Counterfactuals for Photorealistic Object Removal and Insertion.*"  ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09857.pdf)
