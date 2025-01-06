@@ -170,21 +170,12 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 
 ## Papers
 
-### (Object+Text)-Guided
-#### Training-free
-+ Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*"  arXiv preprint arXiv:2403.12658 (2024) [[arXiv]](https://arxiv.org/pdf/2403.12658)
-#### Training-based
-+ Yicheng Yang, Pengxiang Li, Lu Zhang, Liqian Ma, Ping Hu, Siyu Du, Yunzhi Zhuge, Xu Jia, Huchuan Lu: "*DreamMix: Decoupling Object Attributes for Enhanced Editability in Customized Image Inpainting.*" arXiv preprint arXiv:2411.17223 (2024) [[arXiv]](https://arxiv.org/pdf/2411.17223) [[code]](https://github.com/mycfhs/dreammix)
-+ Shaoan Xie, Yang Zhao, Zhisheng Xiao, Kelvin C.K. Chan, Yandong Li, Yanwu Xu, Kun Zhang, Tingbo Hou: "*DreamInpainter: Text-Guided Subject-Driven Image Inpainting with Diffusion Models.*" arXiv preprint arXiv:2312.03771 (2023) [[arXiv]](https://arxiv.org/pdf/2312.03771)
-+ Yulin Pan, Chaojie Mao, Zeyinzi Jiang, Zhen Han, Jingfeng Zhang: "*Locate, Assign, Refine: Taming Customized Image Inpainting with Text-Subject Guidance.*" arXiv preprint arXiv:2403.19534 (2024) [[arXiv]](https://arxiv.org/pdf/2403.19534) [[code]](https://github.com/modelscope/scepter)
-
-### Object-Guided
-#### Training-free
+### Training-free
 + Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
 + Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
-#### Training-based
+### Training-based
 + Jixuan He, Wanhua Li, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister: "*Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion.*" arXiv preprint arXiv:2412.14462 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.14462) [[code]](https://github.com/KaKituken/affordance-aware-any)
 + Daniel Winter, Asaf Shul, Matan Cohen, Dana Berman, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation.*" arXiv preprint arXiv:2412.08645 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.08645)
 + Zitian Zhang, Frederic Fortier-Chouinard, Mathieu Garon, Anand Bhattad, Jean-Francois Lalonde: "*ZeroComp: Zero-shot Object Compositing from Image Intrinsics via Diffusion.*" arXiv preprint arXiv:2410.08168 (2024) [[arXiv]](https://arxiv.org/pdf/2410.08168)
@@ -205,31 +196,9 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Tianle Li, Max Ku, Cong Wei, Wenhu Chen: "*DreamEdit: Subject-driven Image Editing.*" TMLR (2023) [[arXiv]](https://arxiv.org/pdf/2306.12624.pdf) [[code]](https://github.com/DreamEditBenchTeam/DreamEdit)
 
 
-## Related Topics
-
-#### Foreground: 3D;  Background: image
-
-+ Jinghao Zhou, Tomas Jakab, Philip Torr, Christian Rupprecht: "*Scene-Conditional 3D Object Stylization and Composition.*" arXiv preprint arXiv:2312.12419 (2023) [[arXiv]](https://arxiv.org/pdf/2312.12419.pdf) [[code]](https://github.com/shallowtoil/scene-cond-3d)
-
-#### Foreground: 3D;  Background: 3D
-+ Mohamad Shahbazi, Liesbeth Claessens, Michael Niemeyer, Edo Collins, Alessio Tonioni, Luc Van Gool, Federico Tombari: "*InseRF: Text-Driven Generative Object Insertion in Neural 3D Scenes.*" arXiv preprint arXiv:2401.05335 (2024) [[arXiv]](https://arxiv.org/pdf/2401.05335.pdf)
-+ Rahul Goel, Dhawal Sirikonda, Saurabh Saini, PJ Narayanan: "*Interactive Segmentation of Radiance Fields.*" CVPR (2023) [[arXiv]](https://arxiv.org/abs/2212.13545) [[code]](https://github.com/rahul-goel/isrf_code)
-+ Rahul Goel, Dhawal Sirikonda, Rajvi Shah, PJ Narayanan: "*FusedRF: Fusing Multiple Radiance Fields.*" CVPR Workshop (2023) [[arXiv]](https://arxiv.org/abs/2306.04180)
-+ Verica Lazova, Vladimir Guzov, Kyle Olszewski, Sergey Tulyakov, Gerard Pons-Moll: "*Control-NeRF: Editable Feature Volumes for Scene Rendering and Manipulation.*" WACV (2023) [[arXiv]](https://arxiv.org/abs/2204.10850)
-+ Jiaxiang Tang, Xiaokang Chen, Jingbo Wang, Gang Zeng: "*Compressible-composable NeRF via Rank-residual Decomposition.*" NIPS (2022) [[arXiv]](https://arxiv.org/abs/2205.14870) [[code]](https://github.com/ashawkey/CCNeRF)
-+ Bangbang Yang, Yinda Zhang, Yinghao Xu, Yijin Li, Han Zhou, Hujun Bao, Guofeng Zhang, Zhaopeng Cui: "*Learning Object-Compositional Neural Radiance Field for Editable Scene Rendering.*" ICCV (2021) [[arXiv]](https://arxiv.org/abs/2109.01847) [[code]](https://github.com/zju3dv/object_nerf)
-
-#### Foreground: video;  Background: image
-
-+ Boxiao Pan, Zhan Xu, Chun-Hao Paul Huang, Krishna Kumar Singh, Yang Zhou, Leonidas J. Guibas, Jimei Yang: "*ActAnywhere: Subject-Aware Video Background Generation.*" arXiv preprint arXiv:2401.10822 (2024) [[arXiv]](https://arxiv.org/pdf/2401.10822.pdf) 
-
-#### Foreground: video;  Background: video
-
-+ Jiaqi Guo, Sitong Su, Junchen Zhu, Lianli Gao, Jingkuan Song: "*Training-Free Semantic Video Composition via Pre-trained Diffusion Model.*" arXiv preprint arXiv:2401.09195 (2024) [[arXiv]](https://arxiv.org/pdf/2401.09195v1.pdf)
-
-+ Donghoon Lee, Tomas Pfister, Ming-Hsuan Yang: "*Inserting Videos into Videos.*" CVPR (2019) [[pdf]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lee_Inserting_Videos_Into_Videos_CVPR_2019_paper.pdf)
 
 ## Other Resources
 
 + [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
++ [Awesome-Object-Insertion](https://bcmi.github.io/Awesome-Object-Insertion)
 
