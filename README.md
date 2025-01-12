@@ -1,7 +1,7 @@
 
 # Awesome Generative Image Composition [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion). **Generative image composition aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object.** For more complete resources on general image composition, please refer to [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition).
+A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion). **Generative image composition aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object.** For more complete resources on general image composition, please refer to [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion).
 
 <p align='center'>  
   <img src='./figures/task.jpg'  width=90% />
@@ -199,6 +199,5 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 
 ## Other Resources
 
-+ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
-+ [Awesome-Object-Insertion](https://bcmi.github.io/Awesome-Object-Insertion)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion)
 
