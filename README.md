@@ -176,6 +176,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
 ### Training-based
++ Nataniel Ruiz, Yuanzhen Li, Neal Wadhwa, Yael Pritch, Michael Rubinstein, David E. Jacobs, Shlomi Fruchter: "*Magic Insert: Style-Aware Drag-and-Drop.*" arXiv preprint arXiv:2407.02489 (2024) [[arXiv]](https://arxiv.org/pdf/2407.02489)
 + Jixuan He, Wanhua Li, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister: "*Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion.*" arXiv preprint arXiv:2412.14462 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.14462) [[code]](https://github.com/KaKituken/affordance-aware-any)
 + Daniel Winter, Asaf Shul, Matan Cohen, Dana Berman, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation.*" arXiv preprint arXiv:2412.08645 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.08645)
 + Zitian Zhang, Frederic Fortier-Chouinard, Mathieu Garon, Anand Bhattad, Jean-Francois Lalonde: "*ZeroComp: Zero-shot Object Compositing from Image Intrinsics via Diffusion.*" arXiv preprint arXiv:2410.08168 (2024) [[arXiv]](https://arxiv.org/pdf/2410.08168) [[code]](https://github.com/lvsn/ZeroComp)
