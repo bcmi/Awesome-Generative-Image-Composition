@@ -15,7 +15,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Survey](#Survey)
 + [Online Demo](#Online-demo)
 + [Evaluation Metrics](#Evaluation-metrics)
-+ [Test Set](#Test-set)
++ [Datasets](#Datasets)
 + [Leaderboard](#Leaderboard)
 + [Papers](#Papers)
 + [Related Topics](#Related-topics)
@@ -176,6 +176,9 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
 ### Training-based
++ Jiaxuan Chen, Bo Zhang, Qingdong He, Jinlong Peng, Li Niu: "*MureObjectStitch: Multi-reference Image Composition.*" arXiv preprint arXiv:2411.07462 (2025) [[arXiv]](https://arxiv.org/pdf/2411.07462) [[code]](https://github.com/bcmi/MureObjectStitch-Image-Composition)
++ Haoxuan Wang, Jinlong Peng, Qingdong He, Hao Yang, Ying Jin, Jiafu Wu, Xiaobin Hu, Yanjie Pan, Zhenye Gan, Mingmin Chi, Bo Peng, Yabiao Wang: "*UniCombine: Unified Multi-Conditional Combination with Diffusion Transformer.*" arXiv preprint arXiv:2503.09277 (2025) [[arXiv]](https://arxiv.org/pdf/2503.09277) [[code]](https://github.com/Xuan-World/UniCombine)
++ Yongsheng Yu, Ziyun Zeng, Haitian Zheng, Jiebo Luo: "*OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting.*" arXiv preprint arXiv:2503.08677 (2025) [[arXiv]](https://arxiv.org/pdf/2503.08677) [[code]](https://github.com/yeates/OmniPaint)
 + Nataniel Ruiz, Yuanzhen Li, Neal Wadhwa, Yael Pritch, Michael Rubinstein, David E. Jacobs, Shlomi Fruchter: "*Magic Insert: Style-Aware Drag-and-Drop.*" arXiv preprint arXiv:2407.02489 (2024) [[arXiv]](https://arxiv.org/pdf/2407.02489)
 + Jixuan He, Wanhua Li, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister: "*Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion.*" arXiv preprint arXiv:2412.14462 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.14462) [[code]](https://github.com/KaKituken/affordance-aware-any)
 + Daniel Winter, Asaf Shul, Matan Cohen, Dana Berman, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation.*" arXiv preprint arXiv:2412.08645 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.08645)
