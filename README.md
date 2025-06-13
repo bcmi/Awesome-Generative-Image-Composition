@@ -47,6 +47,7 @@ user mask, and a text prompt.
 + [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): 640 background images and 96 unique foreground objects from 32 categories.
 + [SAM-FB](https://github.com/KaKituken/affordance-aware-any) (within-domain, single-ref): built upon SA-1B (SAM dataset). 3,160,403 images with 3,439 foreground categories.
 + [Subjects 200K](https://github.com/Yuanshi9815/Subjects200K) (within-domain, double-ref): 200,000 paired images. Each pair has the same subject yet various scene contexts.
++ [ORIDa](https://hello-jinwoo.github.io/orida/) (within-domain, multi-ref): 200 unique foreground objects. Each object is placed in an average of 50 diverse scenes. In each scene, one object is placed at 1~4 different positions.
 
 ## Leaderboard
 
@@ -176,6 +177,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
 ### Training-based
++ Jinwoo Kim, Sangmin Han, Jinho Jeong, Jiwoo Choi, Dongyeong Kim, Seon Joo Kim: "*ORIDa: Object-centric Real-world Image Composition Dataset.*" CVPR (2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_ORIDa_Object-centric_Real-world_Image_Composition_Dataset_CVPR_2025_paper.pdf) 
 + Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim: "*Multitwine: Multi-Object Compositing with Text and Layout Control.*" arXiv preprint arXiv:2502.05165 (2025)  [[arXiv]](https://arxiv.org/pdf/2502.05165) 
 + Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao, Hengshuang Zhao: "*AnyDoor: Zero-shot Image Customization with Region-to-region Reference.*"  T-PAMI (2025) [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10976616)
 + Wensong Song, Hong Jiang, Zongxing Yang, Ruijie Quan, Yi Yang: "*Insert Anything: Image Insertion via In-Context Editing in DiT.*" arXiv preprint arXiv:2504.15009 (2025) [[arXiv]](https://arxiv.org/pdf/2504.15009) [[code]](https://github.com/song-wensong/insert-anything)
