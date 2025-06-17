@@ -13,12 +13,10 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Table of Contents
 + [Survey](#Survey)
-+ [Online Demo](#Online-demo)
 + [Evaluation Metrics](#Evaluation-metrics)
 + [Datasets](#Datasets)
 + [Leaderboard](#Leaderboard)
 + [Papers](#Papers)
-+ [Related Topics](#Related-topics)
 + [Other Resources](#Other-resources)
 
 ## Survey
@@ -26,11 +24,6 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 A brief review on generative image composition is included in the following survey on image composition:
 
 Li Niu, Wenyan Cong, Liu Liu, Yan Hong, Bo Zhang, Jing Liang, Liqing Zhang: "*Making Images Real Again: A Comprehensive Survey on Deep Image Composition.*" arXiv preprint arXiv:2106.14490 (2021). [[arXiv]](https://arxiv.org/pdf/2106.14490.pdf)  [[slides]](https://www.ustcnewly.com/download/Image_composition_tutorial.pdf)
-
-
-## Online Demo
-
-Try this [online demo](https://bcmi.sjtu.edu.cn/home/niuli/demo_image_composition/) for generative image composition and have fun! ![hot](https://bcmi.sjtu.edu.cn/~niuli/images/fire.png)
 
 
 ## Evaluation Metrics
@@ -172,23 +165,25 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 ## Papers
 
 ### Training-free
-+ Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
-+ Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
++ Yu Xu, Fan Tang, You Wu, Lin Gao, Oliver Deussen, Hongbin Yan, Jintao Li, Juan Cao, Tong-Yee Lee: "*In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation.*" (**+text**) arXiv preprint arXiv:2505.20271 (2025) [[arXiv]](https://arxiv.org/pdf/2505.20271)
++ Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*" (**+text**) ECCV (2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09769.pdf) [[code]](https://github.com/zrealli/TIGIC)
++ Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" (**+text**) ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
++ Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" (**+text**) ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
 + Roy Hachnochi, Mingrui Zhao, Nadav Orzech, Rinon Gal, Ali Mahdavi-Amiri, Daniel Cohen-Or, Amit Haim Bermano: "*Cross-domain Compositing with Pretrained Diffusion Models.*" arXiv preprint arXiv:2302.10167 (2023) [[arXiv]](https://arxiv.org/pdf/2302.10167.pdf) [[code]](https://github.com/roy-hachnochi/cross-domain-compositing)
 
 ### Training-based
+
+####  Free from object-centric finetuning
++ Junjia Huang, Pengxiang Yan, Jiyang Liu, Jie Wu, Zhao Wang, Yitong Wang, Liang Lin, Guanbin Li: "*DreamFuse: Adaptive Image Fusion with Diffusion Transformer.*" arXiv preprint arXiv:2504.08291 (2025) (**+text**) [[arXiv]](https://arxiv.org/pdf/2504.08291) [[demo]](https://huggingface.co/spaces/LL3RD/DreamFuse) 
 + Jinwoo Kim, Sangmin Han, Jinho Jeong, Jiwoo Choi, Dongyeong Kim, Seon Joo Kim: "*ORIDa: Object-centric Real-world Image Composition Dataset.*" CVPR (2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_ORIDa_Object-centric_Real-world_Image_Composition_Dataset_CVPR_2025_paper.pdf) 
-+ Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim: "*Multitwine: Multi-Object Compositing with Text and Layout Control.*" arXiv preprint arXiv:2502.05165 (2025)  [[arXiv]](https://arxiv.org/pdf/2502.05165) 
++ Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim: "*Multitwine: Multi-Object Compositing with Text and Layout Control.*" (**+text**) arXiv preprint arXiv:2502.05165 (2025)  [[arXiv]](https://arxiv.org/pdf/2502.05165) 
 + Xi Chen, Lianghua Huang, Yu Liu, Yujun Shen, Deli Zhao, Hengshuang Zhao: "*AnyDoor: Zero-shot Image Customization with Region-to-region Reference.*"  T-PAMI (2025) [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10976616)
 + Wensong Song, Hong Jiang, Zongxing Yang, Ruijie Quan, Yi Yang: "*Insert Anything: Image Insertion via In-Context Editing in DiT.*" arXiv preprint arXiv:2504.15009 (2025) [[arXiv]](https://arxiv.org/pdf/2504.15009) [[code]](https://github.com/song-wensong/insert-anything)
-+ Jiaxuan Chen, Bo Zhang, Qingdong He, Jinlong Peng, Li Niu: "*MureObjectStitch: Multi-reference Image Composition.*" arXiv preprint arXiv:2411.07462 (2025) [[arXiv]](https://arxiv.org/pdf/2411.07462) [[code]](https://github.com/bcmi/MureObjectStitch-Image-Composition)
 + Haoxuan Wang, Jinlong Peng, Qingdong He, Hao Yang, Ying Jin, Jiafu Wu, Xiaobin Hu, Yanjie Pan, Zhenye Gan, Mingmin Chi, Bo Peng, Yabiao Wang: "*UniCombine: Unified Multi-Conditional Combination with Diffusion Transformer.*" arXiv preprint arXiv:2503.09277 (2025) [[arXiv]](https://arxiv.org/pdf/2503.09277) [[code]](https://github.com/Xuan-World/UniCombine)
 + Yongsheng Yu, Ziyun Zeng, Haitian Zheng, Jiebo Luo: "*OmniPaint: Mastering Object-Oriented Editing via Disentangled Insertion-Removal Inpainting.*" arXiv preprint arXiv:2503.08677 (2025) [[arXiv]](https://arxiv.org/pdf/2503.08677) [[code]](https://github.com/yeates/OmniPaint)
-+ Nataniel Ruiz, Yuanzhen Li, Neal Wadhwa, Yael Pritch, Michael Rubinstein, David E. Jacobs, Shlomi Fruchter: "*Magic Insert: Style-Aware Drag-and-Drop.*" arXiv preprint arXiv:2407.02489 (2024) [[arXiv]](https://arxiv.org/pdf/2407.02489)
 + Jixuan He, Wanhua Li, Ye Liu, Junsik Kim, Donglai Wei, Hanspeter Pfister: "*Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion.*" arXiv preprint arXiv:2412.14462 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.14462) [[code]](https://github.com/KaKituken/affordance-aware-any)
 + Daniel Winter, Asaf Shul, Matan Cohen, Dana Berman, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectMate: A Recurrence Prior for Object Insertion and Subject-Driven Generation.*" arXiv preprint arXiv:2412.08645 (2024)  [[arXiv]](https://arxiv.org/pdf/2412.08645)
 + Zitian Zhang, Frederic Fortier-Chouinard, Mathieu Garon, Anand Bhattad, Jean-Francois Lalonde: "*ZeroComp: Zero-shot Object Compositing from Image Intrinsics via Diffusion.*" arXiv preprint arXiv:2410.08168 (2024) [[arXiv]](https://arxiv.org/pdf/2410.08168) [[code]](https://github.com/lvsn/ZeroComp)
-+ Zhekai Chen, Wen Wang, Zhen Yang, Zeqing Yuan, Hao Chen, Chunhua Shen: "*FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior.*" ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02529.pdf) [[code]](https://github.com/aim-uofa/FreeCompose)
 + Daniel Winter, Matan Cohen, Shlomi Fruchter, Yael Pritch, Alex Rav-Acha, Yedid Hoshen: "*ObjectDrop: Bootstrapping Counterfactuals for Photorealistic Object Removal and Insertion.*"  ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09857.pdf)
 + Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, Jianming Zhang, Yizhi Song, Dan Ruta, Andrew Gilbert, John Collomosse, Soo Ye Kim："*Thinking Outside the BBox: Unconstrained Generative Object Compositing.*" ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07965.pdf)
 + Weijing Tao, Xiaofeng Yang, Biwen Lei, Miaomiao Cui, Xuansong Xie, Guosheng Lin: "*MotionCom: Automatic and Motion-Aware Image Composition with LLM and Video Diffusion Prior.*" arXiv preprint arXiv:2409.10090 (2024) [[arXiv]](https://arxiv.org/pdf/2409.10090.pdf) [[code]](https://github.com/weijing-tao/MotionCom)
@@ -201,6 +196,11 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 + Binxin Yang, Shuyang Gu, Bo Zhang, Ting Zhang, Xuejin Chen, Xiaoyan Sun, Dong Chen, Fang Wen: "*Paint by Example: Exemplar-based Image Editing with Diffusion Models.*" CVPR (2023) [[arXiv]](https://arxiv.org/pdf/2211.13227.pdf) [[code]](https://arxiv.org/pdf/2211.13227.pdf) [[demo]](https://huggingface.co/spaces/Fantasy-Studio/Paint-by-Example)
 + Yizhi Song, Zhifei Zhang, Zhe Lin, Scott Cohen, Brian Price, Jianming Zhang, Soo Ye Kim, Daniel Aliaga: "*ObjectStitch: Generative Object Compositing.*" CVPR (2023) [[arXiv]](https://arxiv.org/pdf/2212.00932.pdf) [[code]](https://github.com/bcmi/ObjectStitch-Image-Composition)
 + Sumith Kulal, Tim Brooks, Alex Aiken, Jiajun Wu, Jimei Yang, Jingwan Lu, Alexei A. Efros, Krishna Kumar Singh: "*Putting People in Their Place: Affordance-Aware Human Insertion into Scenes.*" CVPR (2023) [[paper]](https://sumith1896.github.io/affordance-insertion/static/paper/affordance_insertion_cvpr2023.pdf) [[code]](https://github.com/adobe-research/affordance-insertion)
+
+####  Require object-centric finetuning
++ Jiaxuan Chen, Bo Zhang, Qingdong He, Jinlong Peng, Li Niu: "*MureObjectStitch: Multi-reference Image Composition.*" arXiv preprint arXiv:2411.07462 (2025) [[arXiv]](https://arxiv.org/pdf/2411.07462) [[code]](https://github.com/bcmi/MureObjectStitch-Image-Composition)
++ Zhekai Chen, Wen Wang, Zhen Yang, Zeqing Yuan, Hao Chen, Chunhua Shen: "*FreeCompose: Generic Zero-Shot Image Composition with Diffusion Prior.*" ECCV (2024) [[pdf]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02529.pdf) [[code]](https://github.com/aim-uofa/FreeCompose)
++ Nataniel Ruiz, Yuanzhen Li, Neal Wadhwa, Yael Pritch, Michael Rubinstein, David E. Jacobs, Shlomi Fruchter: "*Magic Insert: Style-Aware Drag-and-Drop.*" arXiv preprint arXiv:2407.02489 (2024) [[arXiv]](https://arxiv.org/pdf/2407.02489)
 + Lingxiao Lu, Bo Zhang, Li Niu: "*DreamCom: Finetuning Text-guided Inpainting Model for Image Composition.*" arXiv preprint arXiv:2309.15508 (2023) [[arXiv]](https://arxiv.org/pdf/2309.15508.pdf) [[code]](https://github.com/bcmi/DreamCom-Image-Composition)
 + Tianle Li, Max Ku, Cong Wei, Wenhu Chen: "*DreamEdit: Subject-driven Image Editing.*" TMLR (2023) [[arXiv]](https://arxiv.org/pdf/2306.12624.pdf) [[code]](https://github.com/DreamEditBenchTeam/DreamEdit)
 
