@@ -174,6 +174,7 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 ### Training-based
 
 ####  Free from object-centric finetuning
++ Dong Liang, Jinyuan Jia, Yuhao Liu, Rynson W.H. Lau: "*HOComp: Interaction-Aware Human-Object Composition.*" arXiv preprint arXiv:2507.16813 (2025)  [[arXiv]](https://arxiv.org/pdf/2507.16813) [[code]](https://github.com/dliang293/HOComp)
 + Junjia Huang, Pengxiang Yan, Jiyang Liu, Jie Wu, Zhao Wang, Yitong Wang, Liang Lin, Guanbin Li: "*DreamFuse: Adaptive Image Fusion with Diffusion Transformer.*" arXiv preprint arXiv:2504.08291 (2025) (**+text**) [[arXiv]](https://arxiv.org/pdf/2504.08291) [[demo]](https://huggingface.co/spaces/LL3RD/DreamFuse) 
 + Jinwoo Kim, Sangmin Han, Jinho Jeong, Jiwoo Choi, Dongyeong Kim, Seon Joo Kim: "*ORIDa: Object-centric Real-world Image Composition Dataset.*" CVPR (2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_ORIDa_Object-centric_Real-world_Image_Composition_Dataset_CVPR_2025_paper.pdf) 
 + Gemma Canet Tarrés, Zhe Lin, Zhifei Zhang, He Zhang, Andrew Gilbert, John Collomosse, Soo Ye Kim: "*Multitwine: Multi-Object Compositing with Text and Layout Control.*" (**+text**) arXiv preprint arXiv:2502.05165 (2025)  [[arXiv]](https://arxiv.org/pdf/2502.05165) 
