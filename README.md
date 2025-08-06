@@ -174,6 +174,8 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 ### Training-based
 
 ####  Free from object-centric finetuning
++ Qi Zhang, Guanyu Xing, Mengting Luo, Jianwei Zhang, Yanli Liu: "*Inserting Objects into Any Background Images via Implicit Parametric Representation.*" IEEE Transactions on Visualization and Computer Graphics (2025) [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10753453)
++ Lu Yang, Yuanhao Wang, Yicheng Liu, Enze Wang, Ziyang Zhao, Yanqi He, Zexian Song, Hao Lua: "*UNICOM: Unified, foreground-aware, and context-realistic deep image composition with diffusion model.*" Neurocomputing (2025) [[pdf]](https://www.sciencedirect.com/science/article/pii/S0925231225018016)
 + Dong Liang, Jinyuan Jia, Yuhao Liu, Rynson W.H. Lau: "*HOComp: Interaction-Aware Human-Object Composition.*" arXiv preprint arXiv:2507.16813 (2025)  [[arXiv]](https://arxiv.org/pdf/2507.16813) [[code]](https://github.com/dliang293/HOComp)
 + Junjia Huang, Pengxiang Yan, Jiyang Liu, Jie Wu, Zhao Wang, Yitong Wang, Liang Lin, Guanbin Li: "*DreamFuse: Adaptive Image Fusion with Diffusion Transformer.*" arXiv preprint arXiv:2504.08291 (2025) (**+text**) [[arXiv]](https://arxiv.org/pdf/2504.08291) [[demo]](https://huggingface.co/spaces/LL3RD/DreamFuse) 
 + Jinwoo Kim, Sangmin Han, Jinho Jeong, Jiwoo Choi, Dongyeong Kim, Seon Joo Kim: "*ORIDa: Object-centric Real-world Image Composition Dataset.*" CVPR (2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_ORIDa_Object-centric_Real-world_Image_Composition_Dataset_CVPR_2025_paper.pdf) 
