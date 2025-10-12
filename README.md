@@ -44,7 +44,9 @@ user mask, and a text prompt.
 
 ## Leaderboard
 
-The training set is open. The test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, the following evaluation metrics are not very reliable. For more comprehensive and interpretable evaluation, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation) of evaluation metrics.
+The experiments of existing works on generative image composition are very chaotic. They use different training sets, different test sets, and different evaluation metrics.
+
+We construct the following leaderboard for your reference only.  In the following leaderboard, the training set is open and the test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, some evaluation metrics are not very reliable. For more comprehensive and interpretable evaluation, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation) of evaluation metrics.
 
 <table class="tg">
   <tr>
@@ -165,7 +167,6 @@ The training set is open. The test set is [COCOEE](https://github.com/Fantasy-St
 ## Papers
 
 ### Training-free
-+ Yu Xu, Fan Tang, You Wu, Lin Gao, Oliver Deussen, Hongbin Yan, Jintao Li, Juan Cao, Tong-Yee Lee: "*In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation.*" (**+text**) arXiv preprint arXiv:2505.20271 (2025) [[arXiv]](https://arxiv.org/pdf/2505.20271)
 + Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*" (**+text**) ECCV (2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09769.pdf) [[code]](https://github.com/zrealli/TIGIC)
 + Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" (**+text**) ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
 + Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" (**+text**) ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
