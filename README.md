@@ -167,6 +167,8 @@ We construct the following leaderboard for your reference only.  In the followin
 ## Papers
 
 ### Training-free
++ Haowen Li, Zhenfeng Fan, Zhang Wen, Zhengzhou Zhu, Yunjin Li: "*AIComposer: Any Style and Content Image Composition via Feature Integration.*" (**+text**)  ICCV (2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_AIComposer_Any_Style_and_Content_Image_Composition_via_Feature_Integration_ICCV_2025_paper.pdf) [[code]](https://github.com/sherlhw/AIComposer)
+
 + Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*" (**+text**) ECCV (2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09769.pdf) [[code]](https://github.com/zrealli/TIGIC)
 + Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" (**+text**) ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
 + Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" (**+text**) ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
