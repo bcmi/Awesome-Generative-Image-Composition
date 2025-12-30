@@ -46,6 +46,7 @@ user mask, and a text prompt.
 + [SAM-FB](https://github.com/KaKituken/affordance-aware-any) (within-domain, single-ref): built upon SA-1B (SAM dataset). 3,160,403 images with 3,439 foreground categories.
 + [Subjects 200K](https://github.com/Yuanshi9815/Subjects200K) (within-domain, double-ref): 200,000 paired images. Each pair has the same subject yet various scene contexts.
 + [ORIDa](https://hello-jinwoo.github.io/orida/) (within-domain, multi-ref): 200 unique foreground objects. Each object is placed in an average of 50 diverse scenes. In each scene, one object is placed at 1~4 different positions.
++ [AnyInsertion](https://huggingface.co/datasets/WensongSong/AnyInsertion_V1) (within-domain, single-ref): The training set includes 136,385 samples across two prompt types: 58,188 mask-prompt image pairs and 78,197 text-prompt image pairs;the test set includes 158 data pairs: 120 mask-prompt pairs and 38 text-prompt pairs.
 
 ## Leaderboard
 
@@ -173,7 +174,6 @@ We construct the following leaderboard for your reference only.  In the followin
 
 ### Training-free
 + Haowen Li, Zhenfeng Fan, Zhang Wen, Zhengzhou Zhu, Yunjin Li: "*AIComposer: Any Style and Content Image Composition via Feature Integration.*" (**+text**)  ICCV (2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_AIComposer_Any_Style_and_Content_Image_Composition_via_Feature_Integration_ICCV_2025_paper.pdf) [[code]](https://github.com/sherlhw/AIComposer)
-
 + Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*" (**+text**) ECCV (2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09769.pdf) [[code]](https://github.com/zrealli/TIGIC)
 + Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" (**+text**) ACM MM (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
 + Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong: "*TF-ICON: Diffusion-based Training-free Cross-domain Image Composition.*" (**+text**) ICCV (2023) [[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_TF-ICON_Diffusion-Based_Training-Free_Cross-Domain_Image_Composition_ICCV_2023_paper.pdf) [[code]](https://github.com/Shilin-LU/TF-ICON)
@@ -182,6 +182,7 @@ We construct the following leaderboard for your reference only.  In the followin
 ### Training-based
 
 ####  Free from object-centric finetuning
++ Wensong Song, Hong Jiang, Zongxing Yang, Ruijie Quan, Yi Yang: "*Insert Anything: Image Insertion via In-Context Editing in DiT.*" AAAI (2026) [[pdf]](https://arxiv.org/pdf/2504.15009) [[code]](https://github.com/song-wensong/insert-anything)
 + Qi Zhang, Guanyu Xing, Mengting Luo, Jianwei Zhang, Yanli Liu: "*Inserting Objects into Any Background Images via Implicit Parametric Representation.*" IEEE Transactions on Visualization and Computer Graphics (2025) [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10753453)
 + Lu Yang, Yuanhao Wang, Yicheng Liu, Enze Wang, Ziyang Zhao, Yanqi He, Zexian Song, Hao Lua: "*UNICOM: Unified, foreground-aware, and context-realistic deep image composition with diffusion model.*" Neurocomputing (2025) [[pdf]](https://www.sciencedirect.com/science/article/pii/S0925231225018016)
 + Dong Liang, Jinyuan Jia, Yuhao Liu, Rynson W.H. Lau: "*HOComp: Interaction-Aware Human-Object Composition.*" arXiv preprint arXiv:2507.16813 (2025)  [[arXiv]](https://arxiv.org/pdf/2507.16813) [[code]](https://github.com/dliang293/HOComp)
