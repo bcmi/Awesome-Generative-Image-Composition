@@ -16,7 +16,6 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Online Demo](#Online-demo)
 + [Evaluation Metrics](#Evaluation-metrics)
 + [Datasets](#Datasets)
-+ [Leaderboard](#Leaderboard)
 + [Papers](#Papers)
 + [Other Resources](#Other-resources)
 
@@ -49,131 +48,11 @@ user mask, and a text prompt.
 + [ORIDa](https://hello-jinwoo.github.io/orida/) (within-domain, multi-ref): 200 unique foreground objects. Each object is placed in an average of 50 diverse scenes. In each scene, one object is placed at 1~4 different positions.
 + [AnyInsertion](https://huggingface.co/datasets/WensongSong/AnyInsertion_V1) (within-domain, single-ref): The training set includes 136,385 samples across two prompt types: 58,188 mask-prompt image pairs and 78,197 text-prompt image pairs;the test set includes 158 data pairs: 120 mask-prompt pairs and 38 text-prompt pairs.
 
-## Leaderboard
-
-The experiments of existing works on generative image composition are very chaotic. They use different training sets, different test sets, and different evaluation metrics.
-
-We construct the following leaderboard for your reference only.  In the following leaderboard, the training set is open and the test set is [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) benchmark. Partial results are copied from [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). Honestly speaking, some evaluation metrics are not very reliable. For more comprehensive and interpretable evaluation, you can refer to this [summary](https://github.com/bcmi/Composite-Image-Evaluation) of evaluation metrics.
-
-<table class="tg">
-  <tr>
-    <th class="tg-0pky" rowspan="2" align="center">Method</th>
-    <th class="tg-0pky" colspan="3" align="center">Foreground</th>
-    <th class="tg-0pky" colspan="2" align="center">Background</th>
-    <th class="tg-0pky" colspan="2" align="center">Overall</th>
-  </tr>
-  <tr>
-    <th class="tg-0pky" align="center">CLIP&uarr;</th>
-    <th class="tg-0pky" align="center">DINO&uarr;</th>
-    <th class="tg-0pky" align="center">FID&darr;</th>
-    <th class="tg-0pky" align="center">LSSIM&uarr;</th>    
-    <th class="tg-0pky" align="center">LPIPS&darr;</th>
-    <th class="tg-0pky" align="center">FID&darr;</th>
-    <th class="tg-0pky" align="center">QS&uarr;</th>
-  </tr>
-<tr>
-  <th class="tg-0pky" align="center">Inpaint&Paste</th>
-    <th class="tg-0pky" align="center">-</th>
-  <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">8.0</th>
-    <th class="tg-0pky" align="center">-</th>    
-    <th class="tg-0pky" align="center">-</th>
-    <th class="tg-0pky" align="center">3.64</th>
-    <th class="tg-0pky" align="center">72.07</th>
-  </tr>
-  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2211.13227.pdf">PBE</a> </th>
-    <th class="tg-0pky" align="center">84.84</th>
-  <th class="tg-0pky" align="center">52.52</th>
-    <th class="tg-0pky" align="center">6.24</th>
-    <th class="tg-0pky" align="center">0.823</th>    
-    <th class="tg-0pky" align="center">0.116</th>
-    <th class="tg-0pky" align="center">3.18</th>
-    <th class="tg-0pky" align="center">77.80</th>
-  </tr>   
-  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2212.00932.pdf">ObjectStitch</a></th>
-    <th class="tg-0pky" align="center">85.97</th>
-    <th class="tg-0pky" align="center">61.12</th>
-    <th class="tg-0pky" align="center">6.86</th>
-    <th class="tg-0pky" align="center">0.825</th>    
-    <th class="tg-0pky" align="center">0.116</th>
-    <th class="tg-0pky" align="center">3.35</th>
-    <th class="tg-0pky" align="center">76.86</th>
-  </tr>  
-  
-  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2307.09481.pdf">AnyDoor</a></th>
-    <th class="tg-0pky" align="center">89.7</th>
-    <th class="tg-0pky" align="center">70.16</th>
-    <th class="tg-0pky" align="center">10.5</th>
-    <th class="tg-0pky" align="center">0.870</th>    
-    <th class="tg-0pky" align="center">0.109</th>
-    <th class="tg-0pky" align="center">3.60</th>
-    <th class="tg-0pky" align="center">76.18</th>
-  </tr>
-  <th class="tg-0pky" align="center"><a href="https://arxiv.org/pdf/2308.10040.pdf">ControlCom</a></th>
-    <th class="tg-0pky" align="center">88.31</th>
-    <th class="tg-0pky" align="center">63.67</th>
-    <th class="tg-0pky" align="center">6.28</th>
-    <th class="tg-0pky" align="center">0.826</th>    
-    <th class="tg-0pky" align="center">0.114</th>
-    <th class="tg-0pky" align="center">3.19</th>
-    <th class="tg-0pky" align="center">77.84</th>
-  </tr>
-</table>
-
-### Evaluating Your Results
-
-1. **Install Dependencies**:
-   - Begin by installing the dependencies listed in [requirements.txt](./requirements.txt).
-   - Additionally, install [Segment Anything](https://github.com/facebookresearch/segment-anything).
-
-2. **Clone Repository and Download Pretrained Models**:
-   - Clone this repository and ensure you have a `checkpoints` folder.
-   - Download the following pretrained models into the `checkpoints` folder:
-     - [openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32): Used for CLIP score and FID score calculations.
-     - [ViT-H SAM model](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints): Utilized to estimate foreground masks for reference images and generated composites.
-     - [facebook/dino-vits16](https://huggingface.co/facebook/dino-vits16): Employed in DINO score computation.
-     - [coco2017_gmm_k20](https://github.com/Fantasy-Studio/Paint-by-Example#qs-score): Utilized to compute the overall quality score.
-
-   The resulting folder structure should resemble the following:
-   ```shell
-   checkpoints/
-   ├── clip-vit-base-patch32
-   ├── coco2017_gmm_k20
-   ├── dino-vits16
-   └── sam_vit_h_4b8939.pth
-   ```
-
-<!-- 3. **Download Cache File for FID Scores**:
-   - Download the cache file from [Google Drive](https://drive.google.com/file/d/1m5EXLb2fX95uyl2dYtQUudjnFsGhN5dU/view?usp=sharing) used for computing FID scores.
-   - Unzip the cache file to a `cache` folder as follows:
-     ```shell
-     cache/
-     ├── coco2017_test.pth
-     └── cocoee_gtfg.pth
-     ```
-   Alternatively, you can download the test set of [COCO2017](http://images.cocodataset.org/zips/test2017.zip) in advance and unzip it to a `data` folder. -->
-
-3. **Prepare COCOEE Benchmark and Your Results**:
-   - Prepare the [COCOEE benchmark](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) alongside your generated composite results. Ensure that your composite images have filenames corresponding to the background images of the COCOEE dataset, as illustrated below:
-      ```shell
-      results/
-      ......
-      ├── 000002228519_GT.png
-      ├── 000002231413_GT.png
-      ├── 900100065455_GT.png
-      └── 900100376112_GT.png
-      ```
-   - Modify the paths accordingly in the `run.sh` file. If you have downloaded the cache file mentioned earlier, please ignore `cocodir`.
-   - Execute the following command:
-     ```shell
-     sh run.sh
-     ```
-   Then, wait for the results of all metrics to be computed.
-
 
 ## Papers
 
 ### Training-free
++ Shilin Lu, Zhuming Lian, Zihan Zhou, Shaocong Zhang, Chen Zhao, Adams Wai-Kin Kong: "*Does FLUX Already Know How to Perform Physically Plausible Image Composition?*" ICLR (2026) [[arxiv]](https://arxiv.org/pdf/2509.21278)
 + Haowen Li, Zhenfeng Fan, Zhang Wen, Zhengzhou Zhu, Yunjin Li: "*AIComposer: Any Style and Content Image Composition via Feature Integration.*" (**+text**)  ICCV (2025) [[arxiv]](https://arxiv.org/pdf/2507.20721) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_AIComposer_Any_Style_and_Content_Image_Composition_via_Feature_Integration_ICCV_2025_paper.pdf) [[code]](https://github.com/sherlhw/AIComposer)
 + Pengzhi Li, Qiang Nie, Ying Chen, Xi Jiang, Kai Wu, Yuhuan Lin, Yong Liu, Jinlong Peng, Chengjie Wang, Feng Zheng: "*Tuning-Free Image Customization with Image and Text Guidance.*" (**+text**) ECCV (2024) [[arxiv]](https://arxiv.org/pdf/2403.12658) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09769.pdf) [[code]](https://github.com/zrealli/TIGIC)
 + Yibin Wang, Weizhong Zhang, Jianwei Zheng, Cheng Jin: "*PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering.*" (**+text**) ACM MM (2024) [[arxiv]](https://arxiv.org/pdf/2403.05053) [[paper]](https://dl.acm.org/doi/pdf/10.1145/3664647.3680848) [[code]](https://github.com/CodeGoat24/PrimeComposer)
