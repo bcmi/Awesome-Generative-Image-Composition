@@ -37,16 +37,14 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 
 
 ## Datasets
-
++ [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): This dataset contains 32 category subfolders. Each category subfolder has: (1) 20 background images with bounding boxes to insert foreground object; (2) 3 foreground sets (5 images each) with object masks, bounding box masks, object-free variants, and lighting variants.
 + [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) (within-domain, single-ref): 500 background images from MSCOCO validation set.  Each background image has a bounding box and a foreground image from MSCOCO training set.
-+ [TF-ICON test benchmark](https://github.com/Shilin-LU/TF-ICON?tab=readme-ov-file#tf-icon-test-benchmark) (cross-domain, single-ref): 332 samples. Each sample consists of a background image, a foreground image, a
-user mask, and a text prompt.
++ [TF-ICON test benchmark](https://github.com/Shilin-LU/TF-ICON?tab=readme-ov-file#tf-icon-test-benchmark) (cross-domain, single-ref): 332 samples. Each sample consists of a background image, a foreground image, a user mask, and a text prompt.
 + [DreamEditBench](https://huggingface.co/datasets/tianleliphoebe/DreamEditBench) (within-domain, multi-ref): 220 background images and 30 unique foreground objects from 15 categories. 
-+ [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): 640 background images and 96 unique foreground objects from 32 categories.
 + [SAM-FB](https://github.com/KaKituken/affordance-aware-any) (within-domain, single-ref): built upon SA-1B (SAM dataset). 3,160,403 images with 3,439 foreground categories.
 + [Subjects 200K](https://github.com/Yuanshi9815/Subjects200K) (within-domain, double-ref): 200,000 paired images. Each pair has the same subject yet various scene contexts.
 + [ORIDa](https://hello-jinwoo.github.io/orida/) (within-domain, multi-ref): 200 unique foreground objects. Each object is placed in an average of 50 diverse scenes. In each scene, one object is placed at 1~4 different positions.
-+ [AnyInsertion](https://huggingface.co/datasets/WensongSong/AnyInsertion_V1) (within-domain, single-ref): The training set includes 136,385 samples across two prompt types: 58,188 mask-prompt image pairs and 78,197 text-prompt image pairs;the test set includes 158 data pairs: 120 mask-prompt pairs and 38 text-prompt pairs.
++ [AnyInsertion](https://huggingface.co/datasets/WensongSong/AnyInsertion_V1) (within-domain, single-ref): The training set includes 136,385 samples across two prompt types: 58,188 mask-prompt image pairs and 78,197 text-prompt image pairs. The test set includes 158 data pairs: 120 mask-prompt pairs and 38 text-prompt pairs.
 
 
 ## Papers
