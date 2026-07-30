@@ -37,7 +37,7 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 
 
 ## Datasets
-+ [MureCom](https://github.com/bcmi/DreamCom-Image-Composition?tab=readme-ov-file#our-murecom-dataset) (within-domain, multi-ref): This dataset contains 32 category subfolders. Each category subfolder has: (1) 20 background images with bounding boxes to insert foreground object; (2) 3 foreground sets (5 images each) with object masks, bounding box masks, object-free variants, and lighting variants.
++ [MureCom](https://github.com/bcmi/Image-Composition-Dataset-MureCom) (within-domain, multi-ref): This dataset contains 32 category subfolders. Each category subfolder has: (1) 20 background images with bounding boxes to insert foreground object; (2) 3 foreground sets (5 images each) with object masks, bounding box masks, object-free variants, and lighting variants.
 + [COCOEE](https://github.com/Fantasy-Studio/Paint-by-Example?tab=readme-ov-file#test-benchmark) (within-domain, single-ref): 500 background images from MSCOCO validation set.  Each background image has a bounding box and a foreground image from MSCOCO training set.
 + [TF-ICON test benchmark](https://github.com/Shilin-LU/TF-ICON?tab=readme-ov-file#tf-icon-test-benchmark) (cross-domain, single-ref): 332 samples. Each sample consists of a background image, a foreground image, a user mask, and a text prompt.
 + [DreamEditBench](https://huggingface.co/datasets/tianleliphoebe/DreamEditBench) (within-domain, multi-ref): 220 background images and 30 unique foreground objects from 15 categories. 
