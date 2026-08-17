@@ -63,6 +63,7 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 ### Training-based
 
 ####  Free from object-centric finetuning
++ Waqas Ahmed, Dean Diepeveen, Ferdous Sohel: "*StructFuse: Harmonizing Multiple Structural Cues for Diffusion-Driven Image Compositing.*" Pattern Recognition (2026) [[paper]](https://doi.org/10.1016/j.patcog.2026.114609)
 + Jingyuan Wang, Li Niu: "OSInsert: Towards High-authenticity and High-fidelity Image Composition." arXiv:2602.19523 (2026) [[arxiv]](https://arxiv.org/pdf/2602.19523) [[code]](https://github.com/bcmi/OSInsert-Image-Composition)
 + Wensong Song, Hong Jiang, Zongxing Yang, Ruijie Quan, Yi Yang: "*Insert Anything: Image Insertion via In-Context Editing in DiT.*" AAAI (2026) [[arxiv]](https://arxiv.org/pdf/2504.15009) [[code]](https://github.com/song-wensong/insert-anything)
 + Raghu Vamsi Chittersu, Yuvraj Singh Rathore, Pranav Adlinge, Kunal Swami: "*Insert In Style: A Zero-Shot Generative Framework for Harmonious Cross-Domain Object Composition.*" arXiv:2511.15197 (2025) [[arxiv]](https://arxiv.org/pdf/2511.15197)
