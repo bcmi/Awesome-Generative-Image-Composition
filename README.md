@@ -1,6 +1,11 @@
 
 # Awesome Generative Image Composition [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+Welcome to scan the WeChat QR code to join the discussion group on image composition/compositing, object insertion/addition.
+<p align="center">
+<img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8572a7c4-0f62-4a5f-bc06-9a1d9fcb14e3" />
+</p>
+
 A curated list of resources including papers, datasets, and relevant links pertaining to generative image composition (object insertion). **Generative image composition aims to generate plausible composite images based on a background image (optional bounding box) and a (*resp.*, a few) foreground image (*resp.*, images) of a specific object.** For more complete resources on general image composition ([object insertion](https://github.com/bcmi/Awesome-Object-Insertion)), please refer to [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion).
 
 <p align='center'>  
