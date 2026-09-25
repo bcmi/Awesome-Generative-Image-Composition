@@ -55,7 +55,8 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 
 ## Papers
 
-### Training-free
+### Training-free (2026
++ Xiangrui Chen, Qi Si, Bo Wang, Zhao Zhang, Xianming Ye, Yun Yang, Haijun Zhang: "*Zero-shot cross-domain image composition via self attention injection.*" Neural Networks (2026) [[pdf]](https://www.sciencedirect.com/science/article/pii/S0893608026008701)
 + Shilin Lu, Zhuming Lian, Zihan Zhou, Shaocong Zhang, Chen Zhao, Adams Wai-Kin Kong: "*Does FLUX Already Know How to Perform Physically Plausible Image Composition?*" ICLR (2026) [[arxiv]](https://arxiv.org/pdf/2509.21278)
 + Yu Xu, Fan Tang, You Wu, Lin Gao, Oliver Deussen, Hongbin Yan, Jintao Li, Juan Cao, Tong-Yee Lee: "*In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation.*" ACM SIGGRAPH ASIA (2025) [[arxiv]](https://arxiv.org/pdf/2505.20271) [[paper]](https://dl.acm.org/doi/epdf/10.1145/3757377.3763820) [[code]](https://github.com/ICTMCG/In-context-Brush)
 + Haowen Li, Zhenfeng Fan, Zhang Wen, Zhengzhou Zhu, Yunjin Li: "*AIComposer: Any Style and Content Image Composition via Feature Integration.*" (**cross-domain**; **+text**)  ICCV (2025) [[arxiv]](https://arxiv.org/pdf/2507.20721) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Li_AIComposer_Any_Style_and_Content_Image_Composition_via_Feature_Integration_ICCV_2025_paper.pdf) [[code]](https://github.com/sherlhw/AIComposer)
