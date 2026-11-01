@@ -55,7 +55,7 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 
 ## Papers
 
-### Training-free (2026
+### Training-free 
 + Xiangrui Chen, Qi Si, Bo Wang, Zhao Zhang, Xianming Ye, Yun Yang, Haijun Zhang: "*Zero-shot cross-domain image composition via self attention injection.*" Neural Networks (2026) [[pdf]](https://www.sciencedirect.com/science/article/pii/S0893608026008701)
 + Shilin Lu, Zhuming Lian, Zihan Zhou, Shaocong Zhang, Chen Zhao, Adams Wai-Kin Kong: "*Does FLUX Already Know How to Perform Physically Plausible Image Composition?*" ICLR (2026) [[arxiv]](https://arxiv.org/pdf/2509.21278)
 + Yu Xu, Fan Tang, You Wu, Lin Gao, Oliver Deussen, Hongbin Yan, Jintao Li, Juan Cao, Tong-Yee Lee: "*In-Context Brush: Zero-shot Customized Subject Insertion with Context-Aware Latent Space Manipulation.*" ACM SIGGRAPH ASIA (2025) [[arxiv]](https://arxiv.org/pdf/2505.20271) [[paper]](https://dl.acm.org/doi/epdf/10.1145/3757377.3763820) [[code]](https://github.com/ICTMCG/In-context-Brush)
@@ -69,6 +69,7 @@ Try this [online demo](http://libcom.ustcnewly.com/) for image composition (obje
 ### Training-based
 
 ####  Free from object-centric finetuning
++ Yue Gong, Le Zhang, Rui Chen, Song Chang, Xiaochao Qu, Luoqi Liu, Ting Liu, Yebin Liu: "*PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions.*" arXiv:2610.40453 (2026)  [[arxiv]](https://arxiv.org/pdf/2610.40453v1) 
 + Waqas Ahmed, Dean Diepeveen, Ferdous Sohel: "*StructFuse: Harmonizing Multiple Structural Cues for Diffusion-Driven Image Compositing.*" Pattern Recognition (2026) [[paper]](https://doi.org/10.1016/j.patcog.2026.114609)
 + Jingyuan Wang, Li Niu: "OSInsert: Towards High-authenticity and High-fidelity Image Composition." arXiv:2602.19523 (2026) [[arxiv]](https://arxiv.org/pdf/2602.19523) [[code]](https://github.com/bcmi/OSInsert-Image-Composition)
 + Wensong Song, Hong Jiang, Zongxing Yang, Ruijie Quan, Yi Yang: "*Insert Anything: Image Insertion via In-Context Editing in DiT.*" AAAI (2026) [[arxiv]](https://arxiv.org/pdf/2504.15009) [[code]](https://github.com/song-wensong/insert-anything)
